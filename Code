@@ -35,7 +35,6 @@ public class NumberWizard : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            
             minNum = guess;
             NextGuess();
         }
